@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Restaurante</string>
+    <string name="app_slogan">Entre nesse mundo</string>
+    <string name="app_welcome">Seja bem-vindo</string>
+    <string name="text_forgot_password">Esqueceu a senha?</string>
+    <string name="text_new_user">Registrar novo usuário</string>
+    <string name="text_sign_in">Entrar</string>
+    <string name="text_log_in">Conecte-se</string>
+    <string name="text_email">Email</string>
+    <string name="text_user_name">Nome de usuário</string>
+    <string name="text_error_fill_mandatory_information">Informação obrigatória</string>
+    <string name="text_error_all_fields_required">Todos os campos obrigatórios</string>
+    <string name="title_activity_login">Atividade de login</string>
+    <string name="text_email_not_valid">Informe um endereço de email</string>
+    <string name="text_abandon_reset_password">Abandonar a troca de senha</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Entrar ou registrar</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="text_fetch_user">Buscar usuário</string>
+    <string name="text_email_or_username">Email ou nome de usuário</string>
+    <string name="text_full_name">Nome completo</string>
+    <string name="text_confirm_button">Terminar</string>
+    <string name="text_reset_button">Reiniciar</string>
+    <string name="text_sign_up">Inscrever-se</string>
+    <string name="text_password">Senha</string>
+    <string name="text_log_out">Sair</string>
+    <string name="text_otp">Informe OTP</string>
+    <string name="text_new_password">Informe a nova senha</string>
+    <string name="already_have_an_account_login">Já tem uma conta? Faça a conexão</string>
+
+</resources>

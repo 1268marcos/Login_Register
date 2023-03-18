@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Restaurant</string>
+    <string name="app_slogan">Login to only one world</string>
+    <string name="app_welcome">Be welcome</string>
+    <string name="text_forgot_password">Forgot password?</string>
+    <string name="text_new_user">Register new user</string>
+    <string name="text_sign_in">Sign In</string>
+    <string name="text_sign_up">Sign Up</string>
+    <string name="text_password">Password</string>
+    <string name="text_log_in">Login</string>
+    <string name="text_log_out">Logout</string>
+    <string name="text_fetch_user">Fetch user</string>
+    <string name="text_email_or_username">Email or username</string>
+
+    <string name="text_full_name">Full name</string>
+    <string name="text_email">Email</string>
+    <string name="text_user_name">Username</string>
+
+    <string name="text_error_fill_mandatory_information">Mandatory information</string>
+    <string name="text_error_all_fields_required">All fields required</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="text_email_not_valid">Email not valid</string>
+    <string name="text_abandon_reset_password">Abandon reset password</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="welcome" translatable="false">"Welcome !"</string>
+
+    <string name="invalid_username" translatable="false">Not a valid username</string>
+    <string name="invalid_password" translatable="false">Password must be >5 characters</string>
+
+    <string name="login_failed" translatable="false">"Login failed"</string>
+
+    <string name="title_activity_sign_up" translatable="false">SignUpActivity</string>
+    <string name="already_have_an_account_login" translatable="false">Already have an account? Login</string>
+
+
+    <string name="item_menu_pizza" translatable="false">Pizza</string>
+
+    <string name="item_menu_burger" translatable="false">Burger</string>
+    <string name="item_menu_soft_drink" translatable="false">Soft Drink</string>
+    <string name="item_menu_juice" translatable="false">Juice</string>
+    <string name="item_menu_water" translatable="false">Water</string>
+    <string name="item_menu_ice_cream" translatable="false">Ice cream</string>
+    <string name="item_menu_coffee" translatable="false">Coffee</string>
+    <string name="item_menu_cake" translatable="false">Cake</string>
+    <string name="item_menu_soup" translatable="false">Soup</string>
+    <string name="item_menu_tea" translatable="false">Tea</string>
+
+    <string name="text_confirm_button">Finish</string>
+    <string name="text_reset_button">Reset</string>
+    <string name="text_otp">Enter OTP</string>
+    <string name="text_new_password">Enter new password</string>
+
+</resources>

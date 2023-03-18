@@ -1,0 +1,61 @@
+0. arquivos PHP (será a API para o banco MySql)
+  http://localhost/app-login-register/
+  C:\xampp\htdocs\app-login-register
+  Servidor Apache e banco MySql instalado via XAMPP
+
+1. em build.gradle(module) incluir a dependencia do volley
+  https://developer.android.com/training/volley?hl=pt-br
+  https://google.github.io/volley/
+
+   implementation 'com.android.volley:volley:1.2.1'
+
+2. Sync Now
+
+3. ajustar permissao para internet no AndroidManifest.xml (linha 5)
+  <uses-permission android:name="android.permission.INTERNET"/>
+
+4. em nível de aplicacao incluir no AndroidManifest.xml (linha 9)
+  android:usesCleartextTraffic="true"
+  assim o funcionamento para envio/recebimento de dados entre app e API PHP+MySql irá ocorrer
+
+5. Veja Creating a POST request em
+  https://www.geeksforgeeks.org/how-to-post-data-to-api-using-volley-in-android/
+  .... private void postDataUsingVolley(String name, String job) {
+
+6. Ajuste AndroidManifest para as próximas atividades
+
+
+
+
+
+links
+https://www.geeksforgeeks.org/crud-operation-in-mysql-using-php-volley-android-insert-data/
+
+https://github.com/Adrianogba/android-java-php-mysql
+
+
+
+Login And SignUp In Android With MySQL (Updated 2023)
+https://www.youtube.com/watch?v=X8oD4q3XtQQ&t=1569s
+
+Login and Registration in Android Studio
+https://www.youtube.com/watch?v=1EgCtiytfR0
+
+CRUD Operations in Android using PHP and MySQL
+https://www.youtube.com/watch?v=TGBjemlj2MM
+
+How to Implement Forgot Password in Android Studio
+https://www.youtube.com/watch?v=50XweIg_-YU&t=425s
+
+PowerShell PS> composer require phpmailer/phpmailer
+C:\xampp\htdocs\app-login-register\   --> PHPs nesta pasta
+
+Philipe Lackner
+How to Make a CRUD Todo List App - Full MVVM Beginner Guide - Android Studio Tutorial
+https://www.youtube.com/watch?v=A7CGcFjQQtQ
+
+Enable and Disable Dark Mode on Android Programmatically
+https://www.youtube.com/watch?v=mizyJxVIFIs
+
+Build a Food Delivery App from SCRATCH in Android Studio
+https://www.youtube.com/watch?v=Ly_RP8RHAsY
