@@ -28,7 +28,6 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.android.volley.AuthFailureError;
 import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -41,7 +40,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.HashMap;
-import java.util.Locale;
 import java.util.Map;
 
 public class LoginActivity extends AppCompatActivity {
@@ -107,8 +105,6 @@ Este método pode ser usado para verificar se o usuário já fez login em uma se
     * */
 
 
-
-
     private void getIpV4(){
         WifiManager mWifiManager = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
         WifiInfo mWifiInfo = mWifiManager.getConnectionInfo();
@@ -116,6 +112,16 @@ Este método pode ser usado para verificar se o usuário já fez login em uma se
         //String ipAddress = Formatter.formatIpAddress(ip);
         mIpV4 = Formatter.formatIpAddress(vIp);
     }
+
+    /*
+         Define um método chamado getIpV4
+         Cria um objeto WifiManager para acessar informações sobre a rede Wi-Fi do dispositivo
+         Obtém as informações da conexão Wi-Fi atual
+         Obtém o endereço IP da conexão Wi-Fi atual como um valor inteiro
+         Converte o endereço IP inteiro em uma string no formato IPv4 e atribui ao atributo mIpV4
+
+        Essa função utiliza a classe WifiManager para obter informações sobre a conexão Wi-Fi atual do dispositivo. Em seguida, ela usa a classe WifiInfo para obter o endereço IP como um valor inteiro e a classe Formatter para converter esse valor inteiro em uma string no formato IPv4. Finalmente, a string convertida é atribuída à variável mIpV4.
+     */
 
 
 
